@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8111e9;
+}
+
+main{
+    background-color: cornsilk;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.primeiraParte{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.primeiraParte > div{
+    margin: 5px;
+    padding: 1px;
+}
+
+.areaResultado{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.areaResultado > label{
+    margin: 8px;
+}
+#prazoMeses, #jurosMeses, #jurosAcumulados{
+    border: 2px solid ;
+    width: 200px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+button{
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #CAE1E8;
+}
+
+table {
+    border: 2px solid rgb(14, 13, 13);
+    border-collapse: collapse;
+    background-color: white;
+  }
+
+th, tr, td {
+    border: solid 1px rgb(14, 13, 13);
+    color: rgb(14, 13, 13);
+    background-color: white;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+html{
+    font-family: sans-serif;
+}

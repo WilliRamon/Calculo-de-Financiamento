@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático - Modulo 1</title>
+    <script src="calculo.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Simulação de Financiamento</h1>
+
+        <div class="primeiraParte">
+            <div>Valor<br><input type="number" id="valor" placeholder="20000"></div>
+
+            <div>Prazo (anos)<br><input type="number" id="prazo" placeholder="20"></div>
+
+            <div>Juros ao ano<br><input type="number" id="juros" placeholder="0.08"></div>
+
+            <button onclick="simular()">Simular</button>
+        </div>
+
+        <h2>Resultado</h2>
+
+        <div class="areaResultado">
+            <label for="">Prazo (meses)<div id="prazoMeses"></div></label>
+            <label for="">Juros ao mês<div id="jurosMeses"></div></label>
+            <label for="">Juros acumulados<div id="jurosAcumulados"></div></label>
+        </div>
+        
+        
+        
+        <!--Área da Tabela-->
+
+        <table>
+            <thead>
+                <tr>
+                  <th>Prestação</th>
+                  <th>Amortização</th>
+                  <th>Juros</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody id="tabelaFinanciamento">
+
+              </tbody>
+        </table>
+
+
+
+
+    </main>
+    
+</body>
+</html>
